@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  restaurant-app-service-v1:
+    build: ./restaurant_V1
+    image: restaurant-app-v1:latest
+    ports:
+      - "8080:8080"
+    container_name: restaurant-service-app-v1
+
+  email-microservice:
+    build: ./microservice_email_v1
+    image: email-service:latest
+    ports:
+      - "8081:8081"
+    container_name: email-microservice-app-v1
+
+  authentication-microservice:
+    build: ./microservice_user_v1
+    image: authentication-service:latest
+    ports:
+      - "8082:8082"
+    container_name: authentication-microservice-app-v1
