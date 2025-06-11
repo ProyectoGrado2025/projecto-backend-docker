@@ -1,0 +1,9 @@
+[submodule "restaurant_V1"]
+	path = restaurant_V1
+	url = https://github.com/ProyectoGrado2025/Backend_proyecto.git
+[submodule "microservice_email_v1"]
+	path = microservice_email_v1
+	url = https://github.com/ProyectoGrado2025/EmailService.git
+[submodule "microservice_user_v1"]
+	path = microservice_user_v1
+	url = https://github.com/ProyectoGrado2025/users-microservice.git
