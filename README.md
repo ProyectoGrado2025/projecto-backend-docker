@@ -41,8 +41,8 @@ docker-compose down
 
 # Actualizar tu copia local (con submódulos)
   - Si ya tienes una copia del proyecto y quieres traer los últimos cambios:
-git pull origin main
-git submodule update --init --recursive
+"git pull origin main"
+"git submodule update --init --recursive"
 
 # Comprobaciones y avisos importantes
   - Antes de continuar con la ejecución del proyecto, asegúrate de lo siguiente:
